@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 # Welcome to Max's Blog
 
