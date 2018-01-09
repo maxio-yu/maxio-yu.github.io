@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 尝试 Git Page 和 Jekyll
 ---
 
 # 试试 Jekyll。

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 一个很棒的 Jekyll 主题
 categories: Jekyll
 tags: Jekyll
 ---
