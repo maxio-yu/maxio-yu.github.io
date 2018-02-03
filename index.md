@@ -1,10 +1,21 @@
 ---
 layout: post
 ---
+
 # Welcome to Max's Blog
 
-### it's ugly but it's kind-hearted
+## 关于我
 
-{% for post in site.posts %}
-- [{{post.title}}]({{site.url}}/{{post.url}})
-{% endfor %}
+一个还在寻找自己，希望突破自己的  
+一个曾经自信，乐观，认为自我调节能力很强的  
+却觉得过去是骄傲，傻缺，满足于现状的人  
+希望能够找到自己，不自我满足，也不自我诋毁  
+能勇于承认过去并且勇于承担未来的人  
+
+
+## 博客
+
+这个博客基于 Jekyll,搭建在 Git Pages 平台上。  
+所用主题 fork 自闫肃的[博客](http://yansu.org/)  
+感谢所有开源的公司和个人,  
+让我们所有人，无论富贵或者贫穷，都能使用上最好的产品。  

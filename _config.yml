@@ -2,36 +2,49 @@
 title: MaxIo's Blog
 email: maxio.l.yu@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Welcome MaxIo Yu's Blog.
-    I will be free!
+    You will be the man you want to be!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-
+url: http://maxio-yu.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: MaxIo Yu 
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
-filter: 'tag'
-
+filter: 'category'
+recent_num: 20
 
 # Social account
-twitter:  MaxIo_Yu
-weibo:    ozzie729
-github:   maxio-yu
-# codepen:  username
-# dribbble: username
+twitter: MaxIo_Yu
+weibo: ozzie729
+github: maxio-yu
+instagram: suyan404
+linkedin: liang-yu
 
+# avatar and Favicon
+avatar: https://raw.githubusercontent.com/maxio-yu/webstore/master/pic/naruto0.jpg
+favicon: https://raw.githubusercontent.com/maxio-yu/webstore/master/pic/naruto0.jpg
 
-# Comment
-# disqus_shortname: discussion_shortname
+# disqus config
+disqus:
+  shortname: maxio_yu
 
-
-# Google Analytics
-# google_analytics: tracking_ID
-
+# google analytics config
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
 
 # Build settings
+permalink: /:year/:month/:day/:title.html
 markdown: kramdown
+highlighter: rouge
+mathjax: disabled
 sass:
   style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
