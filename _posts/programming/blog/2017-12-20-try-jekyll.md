@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 尝试 Git Page 和 Jekyll
-categories: 技术
+categories: 编程
 tags: Jekyll
 ---
 

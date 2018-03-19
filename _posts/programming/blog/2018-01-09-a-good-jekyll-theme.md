@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一个很棒的 Jekyll 主题
-categories: 技术
+categories:  编程
 tags: Jekyll
 ---
 
